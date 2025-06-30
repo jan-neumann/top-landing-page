@@ -11,6 +11,7 @@ body {
     align-items: center;
     background-color: #1F2937;
     color: #F9FAF8;
+    padding-bottom: 48px;
 }
 
 .header .logo {
@@ -26,4 +27,26 @@ body {
 .header-link {
     padding: 8px;
     font-size: 16px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.hero .left-section {
+   width: 300px;
+}
+
+.hero .right-section .image-placeholder {
+    background-color: gray;
+}
+
+.main-title {
+    font-size: 48px;
+    font-weight: 900;
+    
 }
