@@ -1,0 +1,10 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-links {
+    display: flex;
+    list-style: none;
+    padding: 8px;
+}
