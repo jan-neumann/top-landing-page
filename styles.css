@@ -17,7 +17,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-   
+    padding-bottom: 48px;
 }
 
 .header .logo {
@@ -117,4 +117,30 @@ body {
 .card .card-text {
     text-align: center;
     font-size: small;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 0px;
+}
+
+.quote-text {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 16px;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    text-align: end;
+    font-weight: 900;
 }
